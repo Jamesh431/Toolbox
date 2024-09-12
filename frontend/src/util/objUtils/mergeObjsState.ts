@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 
-export function addMultipleItemsToObjState<T>(
+export function mergeObjsState<T>(
   dataObj: object,
   setState: Dispatch<SetStateAction<T>>
 ): void {
